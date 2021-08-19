@@ -333,6 +333,9 @@
   <p>Puede escoger los siguientes menmes:</p>
 
   <button (click)="onSave()">Cargar Memes</button>
+  <textarea>
+    {{mmes | json}}
+  </textarea>
 
   <div *ngFor="let meme of mmes">
     <p>{{meme.name}}</p>

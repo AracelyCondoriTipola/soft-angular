@@ -6,3 +6,4 @@ export class Meme {
   height : number = 0;
   box_count: number = 0;
 }
+
